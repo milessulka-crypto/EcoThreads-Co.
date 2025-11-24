@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Products — EcoThreads</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header class="container header">
+  <a class="logo" href="index.html"><img src="assets/ecothreads_logo.svg" alt="logo"></a>
+  <nav><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav>
+</header>
+
+<main class="container">
+  <h1>Products</h1>
+  <p class="small">Shop our sustainable collection. Use the Add to Cart buttons to start checkout (PayPal buttons are placeholders — replace with your PayPal/Wix/Stripe integration).</p>
+
+  <section id="tee" class="card" style="margin-top:18px">
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <img src="assets/tee_forest.svg" alt="tee" style="width:360px;height:360px;object-fit:cover;border-radius:8px">
+      <div style="flex:1">
+        <h2>Recycled Cotton Tee</h2>
+        <div class="price">$24.99</div>
+        <p class="small">Soft, mid-weight tee made from 60% recycled cotton and 40% organic cotton. Pre-shrunk, breathable, everyday fit.</p>
+        <p class="small"><strong>Sizes:</strong> S • M • L • XL</p>
+        <p class="small"><strong>Colors:</strong> Natural, Forest Green, Ash Grey</p>
+        <!-- PayPal Buy Now - example placeholder -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="your-paypal-email@example.com">
+          <input type="hidden" name="item_name" value="Recycled Cotton Tee">
+          <input type="hidden" name="amount" value="24.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <button class="btn" type="submit">Buy Now — $24.99</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="hoodie" class="card" style="margin-top:18px">
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <img src="assets/hoodie_autumn.svg" alt="hoodie" style="width:360px;height:360px;object-fit:cover;border-radius:8px">
+      <div style="flex:1">
+        <h2>Eco-Friendly Hoodie</h2>
+        <div class="price">$49.99</div>
+        <p class="small">Cozy hoodie with brushed interior, 70% recycled fibers. Durable stitching and low-impact dyes.</p>
+        <p class="small"><strong>Sizes:</strong> S • M • L • XL • XXL</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="your-paypal-email@example.com">
+          <input type="hidden" name="item_name" value="Eco Hoodie">
+          <input type="hidden" name="amount" value="49.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <button class="btn" type="submit">Buy Now — $49.99</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="tote" class="card" style="margin-top:18px">
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <img src="assets/tote.svg" alt="tote" style="width:360px;height:360px;object-fit:cover;border-radius:8px">
+      <div style="flex:1">
+        <h2>Recycled Canvas Tote</h2>
+        <div class="price">$14.99</div>
+        <p class="small">100% recycled canvas, reinforced straps, fits a laptop and groceries.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="your-paypal-email@example.com">
+          <input type="hidden" name="item_name" value="Recycled Tote">
+          <input type="hidden" name="amount" value="14.99">
+          <input type="hidden" name="currency_code" value="USD">
+          <button class="btn" type="submit">Buy Now — $14.99</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="container footer"><div>© 2025 EcoThreads Co.</div><div class="small">Free shipping $50+</div></footer>
+</body></html>
